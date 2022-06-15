@@ -33,10 +33,14 @@ function* generator(arr) {
 const iterator = new MyIterator(['This', 'is', 'iterator'])
 const gen = generator(['This', 'is', 'iterator'])
 
-for (const val of gen) {
-    console.log('value:', val)
-}
+// for (const val of gen) {
+//     console.log('value:', val)
+// }
 
 // for (const val of iterator) {
 //     console.log('Value:', val)
 // }
+
+// console.log(gen.next().value)
+// console.log(gen.next().value)
+// console.log(gen.next().value)
